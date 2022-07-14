@@ -171,7 +171,7 @@ void cvRecodedCanny(const cv::Mat& imgGraySrc,
     //   0 - the pixel might belong to an edge
     //   1 - the pixel can not belong to an edge
     //   2 - the pixel does belong to an edge
-    for(i = 0; i <= size.height; i++)
+    for(i = 0; i < size.height; i++)
     {
         int* _mag = mag_buf[(i > 0) + 1] + 1;
 
